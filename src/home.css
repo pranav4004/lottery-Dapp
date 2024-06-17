@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Full viewport height */
+    background-color: pink; /* Light background color */
+    background-image: url('https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExamN3dGoydjFkbGE5ZXVkc3YzNnU0emQ1bnhkZjh0NzBlZWhxYTc2aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OkVVUlG40FnuE/giphy.gif');
+    background-size: cover;
+    color: white;
+    background-repeat: no-repeat;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color:white;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .enter-button {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .enter-button:hover {
+    background-color: #0056b3;
+  }
+  
